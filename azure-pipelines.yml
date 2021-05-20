@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-- Default
+vmImage: 'Default'
 
 steps:
 - task: CmdLine@1
