@@ -1,0 +1,760 @@
+2021-05-19 15:00:16,159 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2021-05-19 15:00:18,422 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:00:18,422 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:00:18,704 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:00:20,733 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 2. atempt.
+2021-05-19 15:00:20,855 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:00:20,855 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:00:20,855 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:00:22,877 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 3. atempt.
+2021-05-19 15:00:22,940 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:00:22,940 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:00:22,940 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:00:24,973 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 4. atempt.
+2021-05-19 15:00:24,973 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:00:24,973 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:00:24,973 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:00:26,997 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 5. atempt.
+2021-05-19 15:00:26,997 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:00:26,997 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:00:26,997 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:00:29,015 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 6. atempt.
+2021-05-19 15:00:29,015 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:00:29,015 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:00:29,015 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:00:31,031 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 7. atempt.
+2021-05-19 15:00:31,031 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:00:31,031 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:00:31,031 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:00:33,065 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 8. atempt.
+2021-05-19 15:00:33,065 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:00:33,065 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:00:33,065 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:00:35,079 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 9. atempt.
+2021-05-19 15:00:35,079 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:00:35,079 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:00:35,079 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:00:37,115 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 10. atempt.
+2021-05-19 15:00:37,115 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:00:37,115 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:00:37,115 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:00:37,129 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Void StartService() Recovery did not work. Closing Service.
+2021-05-19 15:03:00,409 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2021-05-19 15:03:00,612 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:03:00,612 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:03:00,627 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:03:02,669 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 2. atempt.
+2021-05-19 15:03:02,669 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:03:02,669 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:03:02,669 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:03:04,701 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 3. atempt.
+2021-05-19 15:03:04,701 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:03:04,701 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:03:04,701 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:03:06,737 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 4. atempt.
+2021-05-19 15:03:06,737 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:03:06,737 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:03:06,737 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:03:08,766 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 5. atempt.
+2021-05-19 15:03:08,766 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:03:08,766 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:03:08,766 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:03:10,800 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 6. atempt.
+2021-05-19 15:03:10,800 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:03:10,800 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:03:10,800 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:03:12,817 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 7. atempt.
+2021-05-19 15:03:19,533 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:03:23,582 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:03:23,582 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:03:25,603 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 8. atempt.
+2021-05-19 15:03:25,603 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:03:25,603 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:03:25,603 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:03:27,621 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 9. atempt.
+2021-05-19 15:03:27,621 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:03:27,621 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:03:27,621 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:03:29,643 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 10. atempt.
+2021-05-19 15:03:29,643 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:03:29,643 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:03:29,643 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:03:29,643 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Void StartService() Recovery did not work. Closing Service.
+2021-05-19 15:06:31,434 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2021-05-19 15:06:31,698 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:06:31,698 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:06:31,730 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:06:33,760 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 2. atempt.
+2021-05-19 15:06:33,760 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:06:33,760 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:06:33,760 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:06:35,793 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 3. atempt.
+2021-05-19 15:06:35,793 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:06:35,793 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:06:35,806 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:06:37,817 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 4. atempt.
+2021-05-19 15:06:37,817 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:06:37,817 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:06:37,817 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:06:39,834 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 5. atempt.
+2021-05-19 15:06:39,834 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:06:39,834 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:06:39,834 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:08:55,641 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2021-05-19 15:08:55,828 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:08:55,828 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:08:55,860 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:08:57,880 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 2. atempt.
+2021-05-19 15:08:57,880 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:08:57,880 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:08:57,880 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:08:59,902 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 3. atempt.
+2021-05-19 15:08:59,902 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:08:59,902 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:08:59,902 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:09:01,934 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 4. atempt.
+2021-05-19 15:09:01,934 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:09:01,934 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:09:01,934 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:09:03,964 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 5. atempt.
+2021-05-19 15:09:03,964 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:09:03,964 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:09:03,964 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:09:05,981 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 6. atempt.
+2021-05-19 15:09:05,981 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:09:05,981 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:09:05,981 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:09:07,997 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 7. atempt.
+2021-05-19 15:09:07,997 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:09:07,997 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:09:07,997 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:09:10,033 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 8. atempt.
+2021-05-19 15:09:10,033 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:09:10,033 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:09:10,033 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:09:12,058 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 9. atempt.
+2021-05-19 15:09:12,058 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:09:12,058 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:09:12,058 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:09:14,085 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 10. atempt.
+2021-05-19 15:09:14,085 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost in faulted state! 
+2021-05-19 15:09:14,085 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 15:09:14,085 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - HTTP could not register URL http://+:8732/TOSCARemoteExecutionService/. Your process does not have access rights to this namespace (see http://go.microsoft.com/fwlink/?LinkId=70353 for details).
+Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.SharedHttpTransportManager.OnOpen()
+   at System.ServiceModel.Channels.TransportManager.Open(TransportChannelListener channelListener)
+   at System.ServiceModel.Channels.TransportManagerContainer.Open(SelectTransportManagersCallback selectTransportManagerCallback)
+   at System.ServiceModel.Channels.TransportChannelListener.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelListener`1.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.ChannelDispatcher.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at System.ServiceModel.ServiceHostBase.OnOpen(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Open(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program.StartServiceInternal()
+2021-05-19 15:09:14,099 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Void StartService() Recovery did not work. Closing Service.
+2021-05-19 15:39:59,071 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2021-05-19 15:39:59,773 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost opened.
+2021-05-19 15:39:59,789 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program -  Server is up and running...
+2021-05-19 15:39:59,789 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - http://192.168.15.128:8732/TOSCARemoteExecutionService/
+2021-05-19 15:39:59,789 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithConfig(System.String, System.String, System.String, System.String)
+2021-05-19 15:39:59,789 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithoutConfig(System.String, System.String, System.String)
+2021-05-19 15:39:59,789 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithConfig(System.String, System.String, System.String)
+2021-05-19 15:39:59,789 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithoutConfig(System.String, System.String)
+2021-05-19 15:39:59,789 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionInfo GetExecutionInfo(Byte[])
+2021-05-19 15:39:59,789 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - Void StopExecution(System.Guid)
+2021-05-19 15:40:57,657 [4] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Service.RemoteExecutionService - Executing test without configuration
+2021-05-19 15:40:59,099 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2021-05-19 15:41:53,898 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\EnlightGuru Training\EnlightGuru Training.tws
+2021-05-19 15:42:00,367 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2021-05-19 15:42:01,180 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2021-05-19 15:42:01,649 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: Execution Reports
+2021-05-19 15:42:01,664 [4] INFO  Tricentis.TCAPIHelper.CheckoutHelper - Checkout on OwnedItem: Execution Reports, Nodepath: /Execution/ExecutionLists/Execution Reports
+2021-05-19 15:42:01,680 [4] INFO  Tricentis.TCAPIHelper.CheckoutHelper - TCFolder '/Execution/ExecutionLists/Execution Reports' does not need to be included for synchronization
+2021-05-19 15:42:03,758 [4] INFO  Tricentis.TCAPIHelper.CheckoutHelper - OwnedItem is checked out.
+2021-05-19 15:42:38,467 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2021-05-19 15:42:40,227 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2021-05-19 15:42:55,376 [4] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher - Test execution has been finished.
+2021-05-19 15:56:03,416 [27] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Service.RemoteExecutionService - Executing test with configuration
+2021-05-19 15:56:15,016 [27] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher - Version number '1.0 encoding=' is invalid. Line 1, position 16.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseXmlDeclaration(Boolean isTextDecl)
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteTest(String resultType, String testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionManager.ExecuteTest(String resultType, String testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher.Redirect(String resultType, String config)
+2021-05-19 15:59:10,527 [36] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Service.RemoteExecutionService - Executing test with configuration
+2021-05-19 15:59:12,918 [36] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher - Unexpected end of file has occurred. The following elements are not closed: testConfuguration, TestEvents, TestEvent, TestEvent, TestEvents, testConfuguration. Line 10, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ThrowUnclosedElements()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteTest(String resultType, String testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionManager.ExecuteTest(String resultType, String testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher.Redirect(String resultType, String config)
+2021-05-19 16:00:34,288 [27] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Service.RemoteExecutionService - Executing test with configuration
+2021-05-19 16:00:34,523 [27] ERROR TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController - There is an error in the XML document.
+<testconfuguration xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderTestConfigurationRootNode.Read5_testconfiguration()
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at TOSCAContinuousIntegration.TOSCACIExecution.Utils.Util.CreateTypedTestConfiguration[T](XmlDocument testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteTestWithXmlConfiguration(String resultType, XmlDocument testConfiguration)
+2021-05-19 16:00:35,308 [27] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher - There is an error in the XML document.
+<testconfuguration xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderTestConfigurationRootNode.Read5_testconfiguration()
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at TOSCAContinuousIntegration.TOSCACIExecution.Utils.Util.CreateTypedTestConfiguration[T](XmlDocument testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteTestWithXmlConfiguration(String resultType, XmlDocument testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionManager.ExecuteTest(String resultType, String testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher.Redirect(String resultType, String config)
+2021-05-19 16:03:28,000 [39] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Unknown Message recieved! 
+2021-05-19 16:03:28,015 [39] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 16:29:49,085 [38] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Unknown Message recieved! 
+2021-05-19 16:29:49,101 [38] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 16:52:00,282 [37] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Unknown Message recieved! 
+2021-05-19 16:52:00,306 [37] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 18:02:33,849 [1] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Try to restart: 1. atempt.
+2021-05-19 18:02:34,958 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost opened.
+2021-05-19 18:02:34,971 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program -  Server is up and running...
+2021-05-19 18:02:34,971 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - http://192.168.15.128:8732/TOSCARemoteExecutionService/
+2021-05-19 18:02:34,971 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithConfig(System.String, System.String, System.String, System.String)
+2021-05-19 18:02:34,971 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.String ExecuteWithoutConfig(System.String, System.String, System.String)
+2021-05-19 18:02:34,971 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithConfig(System.String, System.String, System.String)
+2021-05-19 18:02:34,971 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - System.Guid StartExecuteWithoutConfig(System.String, System.String)
+2021-05-19 18:02:34,971 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionInfo GetExecutionInfo(Byte[])
+2021-05-19 18:02:34,971 [1] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program+<>c - Void StopExecution(System.Guid)
+2021-05-19 18:06:35,902 [4] ERROR TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Unknown Message recieved! 
+2021-05-19 18:06:35,902 [4] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Program - Servicehost will be restarted...
+2021-05-19 18:11:44,677 [4] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Service.RemoteExecutionService - Executing test without configuration
+2021-05-19 18:11:47,364 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Getting license...
+2021-05-19 18:12:40,780 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Opening workspace: C:\Tosca_Projects\Tosca_Workspaces\EnlightGuru Training\EnlightGuru Training.tws
+2021-05-19 18:12:51,797 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Executing CI Test...
+2021-05-19 18:12:54,451 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Searching for BuildRootFolder...
+2021-05-19 18:12:55,654 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Single ContinuousIntegrationBuildRootFolder found: Execution Reports
+2021-05-19 18:12:55,717 [4] INFO  Tricentis.TCAPIHelper.CheckoutHelper - Checkout on OwnedItem: Execution Reports, Nodepath: /Execution/ExecutionLists/Execution Reports
+2021-05-19 18:12:55,732 [4] INFO  Tricentis.TCAPIHelper.CheckoutHelper - TCFolder '/Execution/ExecutionLists/Execution Reports' does not need to be included for synchronization
+2021-05-19 18:13:01,310 [4] INFO  Tricentis.TCAPIHelper.CheckoutHelper - OwnedItem is checked out.
+2021-05-19 18:13:25,113 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Creating junit test result...
+2021-05-19 18:13:26,081 [4] INFO  TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutor - Closing workspace and restoring license...
+2021-05-19 18:13:46,037 [4] INFO  TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher - Test execution has been finished.

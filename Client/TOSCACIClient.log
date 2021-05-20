@@ -1,0 +1,342 @@
+2021-05-19 15:26:28,020 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://192.168.15.128:81/DistributionServerService/MonitorService.svc
+2021-05-19 15:26:28,067 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2021-05-19 15:26:28,067 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:
+2021-05-19 15:26:29,834 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: EndpointNotFoundException occured
+There was no endpoint listening at http://192.168.15.128:81/DistributionServerService/MonitorService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ServiceReference1.IRemoteExecutionService.ExecuteWithoutConfig(String usernameHash, String passwordHash, String resultType)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher.Execute()
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher.Execute()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 15:31:51,389 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://192.168.15.128:8732/ToscaRemoteExecutionService/
+2021-05-19 15:31:51,433 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2021-05-19 15:31:51,433 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:
+2021-05-19 15:31:53,905 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: EndpointNotFoundException occured
+There was no endpoint listening at http://192.168.15.128:8732/ToscaRemoteExecutionService/ that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   at System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ServiceReference1.IRemoteExecutionService.ExecuteWithoutConfig(String usernameHash, String passwordHash, String resultType)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher.Execute()
+Unable to connect to the remote server
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+No connection could be made because the target machine actively refused it 192.168.15.128:8732
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher.Execute()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 15:40:56,991 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://192.168.15.128:8732/ToscaRemoteExecutionService/
+2021-05-19 15:40:57,068 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2021-05-19 15:40:57,068 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:
+2021-05-19 15:42:55,610 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - Test execution has been finished.
+2021-05-19 15:42:55,628 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Temp\Result.xml<
+2021-05-19 15:56:03,278 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://192.168.15.128:8732/ToscaRemoteExecutionService/
+2021-05-19 15:56:03,292 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2021-05-19 15:56:03,292 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:C:\CIExecution\CITestExecutionConfiguration.xml
+2021-05-19 15:56:20,374 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: FaultException occured
+Version number '1.0 encoding=' is invalid. Line 1, position 16.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseXmlDeclaration(Boolean isTextDecl)
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteTest(String resultType, String testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionManager.ExecuteTest(String resultType, String testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher.Redirect(String resultType, String config)
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ServiceReference1.IRemoteExecutionService.ExecuteWithConfig(String usernameHash, String passwordHash, String config, String resultType)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiWithConfigDispatcher.Execute()
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiWithConfigDispatcher.Execute()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 15:59:10,386 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://192.168.15.128:8732/ToscaRemoteExecutionService/
+2021-05-19 15:59:10,401 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2021-05-19 15:59:10,401 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:C:\CIExecution\CITestExecutionConfiguration.xml
+2021-05-19 15:59:12,932 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: FaultException occured
+Unexpected end of file has occurred. The following elements are not closed: testConfuguration, TestEvents, TestEvent, TestEvent, TestEvents, testConfuguration. Line 10, position 1.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ThrowUnclosedElements()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   at System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   at System.Xml.XmlDocument.Load(XmlReader reader)
+   at System.Xml.XmlDocument.LoadXml(String xml)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteTest(String resultType, String testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionManager.ExecuteTest(String resultType, String testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher.Redirect(String resultType, String config)
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ServiceReference1.IRemoteExecutionService.ExecuteWithConfig(String usernameHash, String passwordHash, String config, String resultType)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiWithConfigDispatcher.Execute()
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiWithConfigDispatcher.Execute()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 16:00:34,212 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://192.168.15.128:8732/ToscaRemoteExecutionService/
+2021-05-19 16:00:34,226 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2021-05-19 16:00:34,226 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:C:\CIExecution\CITestExecutionConfiguration.xml
+2021-05-19 16:00:35,322 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: FaultException occured
+There is an error in the XML document.
+<testconfuguration xmlns=''> was not expected.
+   at Microsoft.Xml.Serialization.GeneratedAssembly.XmlSerializationReaderTestConfigurationRootNode.Read5_testconfiguration()
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader, String encodingStyle, XmlDeserializationEvents events)
+   at System.Xml.Serialization.XmlSerializer.Deserialize(XmlReader xmlReader)
+   at TOSCAContinuousIntegration.TOSCACIExecution.Utils.Util.CreateTypedTestConfiguration[T](XmlDocument testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CITestExecutionController.ExecuteTestWithXmlConfiguration(String resultType, XmlDocument testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIExecution.CIExecutionManager.ExecuteTest(String resultType, String testConfiguration)
+   at TOSCAContinuousIntegration.TOSCACIRemoteExecutionService.Dispatching.ExecutionDispatcher.Redirect(String resultType, String config)
+
+Server stack trace: 
+   at System.ServiceModel.Channels.ServiceChannel.HandleReply(ProxyOperationRuntime operation, ProxyRpc& rpc)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ServiceReference1.IRemoteExecutionService.ExecuteWithConfig(String usernameHash, String passwordHash, String config, String resultType)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiWithConfigDispatcher.Execute()
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiWithConfigDispatcher.Execute()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 16:03:27,906 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-19 16:03:28,421 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: Connection to DEX server not possible. The DEX server or the CiClient may be outdated!
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 16:29:48,824 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-19 16:29:49,221 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: Connection to DEX server not possible. The DEX server or the CiClient may be outdated!
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 16:51:59,681 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-19 16:52:00,510 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: Connection to DEX server not possible. The DEX server or the CiClient may be outdated!
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 18:01:36,133 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-19 18:01:37,257 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: There was a communication problem!
+There was no endpoint listening at http://192.168.15.128:81/DistributionServerService/MonitorService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.IManagerService.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.ManagerServiceClient.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.RegisterAtServer()
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 18:03:22,090 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-19 18:03:22,413 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: There was a communication problem!
+There was no endpoint listening at http://192.168.15.128:81/DistributionServerService/MonitorService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.IManagerService.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.ManagerServiceClient.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.RegisterAtServer()
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 18:05:14,060 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-19 18:05:14,231 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: There was a communication problem!
+There was no endpoint listening at http://localhost:81/DistributionServerService/MonitorService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.IManagerService.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.ManagerServiceClient.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.RegisterAtServer()
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 18:06:35,401 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-19 18:06:36,524 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: Connection to DEX server not possible. The DEX server or the CiClient may be outdated!
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 18:11:44,273 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - http://192.168.15.128:8732/ToscaRemoteExecutionService/
+2021-05-19 18:11:44,350 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Starting remote execution
+2021-05-19 18:11:44,350 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.AbstractRemoteDispatcher - Configuration File Path:
+2021-05-19 18:13:46,150 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.CiDispatcher - Test execution has been finished.
+2021-05-19 18:13:46,150 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Temp\Result.xml<
+2021-05-19 18:29:04,133 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-19 18:29:04,491 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: There was a communication problem!
+There was no endpoint listening at http://192.168.15.128:81/DistributionServerService/MonitorService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.IManagerService.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.ManagerServiceClient.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.RegisterAtServer()
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 18:44:14,698 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-19 18:44:15,185 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: There was a communication problem!
+There was no endpoint listening at http://192.168.15.128:81/DistributionServerService/MonitorService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.IManagerService.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.ManagerServiceClient.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.RegisterAtServer()
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-19 19:19:16,085 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-19 19:19:25,679 [1] ERROR TOSCAContinuousIntegration.TOSCACIClient.Program - Main: There was a communication problem!
+There was no endpoint listening at http://192.168.15.128:81/DistributionServerService/MonitorService.svc that could accept the message. This is often caused by an incorrect address or SOAP action. See InnerException, if present, for more details.
+
+Server stack trace: 
+   at System.ServiceModel.Channels.HttpChannelUtilities.ProcessGetResponseWebException(WebException webException, HttpWebRequest request, HttpAbortReason abortReason)
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   at System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   at System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.IManagerService.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.ManagerService.ManagerServiceClient.Register(Guid ciClientId, String ldapString)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.RegisterAtServer()
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.WaitForReply(TimeSpan timeout)
+   at TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher.Connect()
+   at TOSCAContinuousIntegration.TOSCACIClient.Program.Main(String[] args)
+2021-05-20 09:45:19,226 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - The server is not operational.
+
+2021-05-20 09:45:19,537 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - CI Client was registered successfully on DEX server.
+2021-05-20 09:45:19,537 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - http://192.168.15.128:81/DistributionServerService/ManagerService.svc
+2021-05-20 09:45:19,709 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Starting to poll Dex server for results. Timeout: 36000000. Interval: 60000
+2021-05-20 09:46:19,797 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Polled Dex Server. Execution is not yet finished.
+2021-05-20 09:47:20,035 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Polled Dex Server. Execution is not yet finished.
+2021-05-20 09:47:20,039 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Creating junit test result...
+2021-05-20 09:48:20,247 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Polled Dex Server. Execution is not yet finished.
+2021-05-20 09:49:20,284 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Polled Dex Server. Execution is not yet finished.
+2021-05-20 09:50:22,398 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Polled Dex Server. Execution is not yet finished.
+2021-05-20 09:51:22,486 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Polled Dex Server. Execution is finished.
+2021-05-20 09:51:22,489 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Finished ExecutionEntry 'Buffer Exanple' with result 'Passed'. (UniqueId: 39fc928d-31b5-386c-836d-3646d2e98160, Item id: eb20af06-19e7-437c-9302-0c0ca0229dd9, Event id: 26411728-0abd-4abb-bd5b-013f2ab4cb5e, Event index: 0)
+2021-05-20 09:51:22,491 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Creating junit test result...
+2021-05-20 09:51:22,530 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Creating junit test result...
+2021-05-20 09:51:22,557 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Dispatching.DexRemoteDispatcher - Test execution has been finished.
+2021-05-20 09:51:22,560 [1] INFO  TOSCAContinuousIntegration.TOSCACIClient.Program - Result was printed to >C:\Temp\Result.xml<
