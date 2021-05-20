@@ -1,0 +1,14 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+steps:
+- task: CmdLine@1
+  displayName: 'Run TOSCA CI Client'
+  inputs:
+    filename: 'C:\ToscaCI\Client\TOSCACIClient.exe'
+    arguments: '-m distributed -c C:\CIExecution\CITestExecutionConfiguration.xml -t junit -r C:\Temp\Result.xml'
