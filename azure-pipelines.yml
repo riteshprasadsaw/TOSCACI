@@ -1,17 +1,26 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
-
 trigger:
-- main
+  branches:
+    include:
+    - main
+stages:
+- stage: __default
+  jobs:
+  - job: Job_1
+    displayName: DEx Execution On Remote VMWare Machine
+    pool:
+      name: Default
+    steps:
+    - task: 6d15af64-176c-496d-b583-fd2ae21d4df4@1
+      inputs:
+        repository: self
+    - task: CmdLine@1
+      displayName: Run TOSCA CI Client
+      inputs:
+        filename: $(Agent.HomeDirectory)\\_work\\2\\s\\Client\\ToscaCIClient.exe
+        arguments: -m distributed -c $(Agent.HomeDirectory)\\CIExecution\CITestExecutionConfiguration.xml -t junit -r $(Agent.HomeDirectory)\\_work\\2\\TestResults\\ToscaCI.xml
+    - task: PublishTestResults@2
+      displayName: Publish Test Results Result.xml
+      inputs:
+        testResultsFiles: ToscaCI.xml
+        searchFolder: $(Agent.HomeDirectory)\\_work\\2\\TestResults
 
-pool:
-vmImage: 'Default'
-
-steps:
-- task: CmdLine@1
-  displayName: 'Run TOSCA CI Client'
-  inputs:
-    filename: 'C:\ToscaCI\Client\TOSCACIClient.exe'
-    arguments: '-m distributed -c C:\CIExecution\CITestExecutionConfiguration.xml -t junit -r C:\Temp\Result.xml'
