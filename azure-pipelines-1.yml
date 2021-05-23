@@ -16,7 +16,7 @@ jobs:
   - task: CmdLine@1
     displayName: Run TOSCA CI Client
     inputs:
-      filename: $(Agent.HomeDirectory)\\_work\\2\\s\\Client\\ToscaCIClient.exe
+      filename: $(Agent.HomeDirectory)\\_work\\tosca_ci\\Client\\ToscaCIClient.exe
       arguments: -m distributed -c $(Agent.HomeDirectory)\\CIExecution\CITestExecutionConfiguration.xml -t junit -r $(Agent.HomeDirectory)\\_work\\2\\TestResults\\ToscaCI.xml
   - task: PublishTestResults@2
     displayName: Publish Test Results Result.xml
